@@ -1,7 +1,0 @@
-applications:
-- name: covidtrends
-  random-route: true
-  memory: 512M
-  disk_quota: 768M
-  buildpack: Staticfile
-  health-check-type: process
