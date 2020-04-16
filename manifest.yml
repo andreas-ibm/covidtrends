@@ -3,5 +3,5 @@ applications:
   random-route: true
   memory: 512M
   disk_quota: 768M
-  buildpack: nodejs_buildpack
+  buildpack: staticfile
   health-check-type: process
