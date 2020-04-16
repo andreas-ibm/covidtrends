@@ -1,0 +1,7 @@
+applications:
+- name: covidtrends
+  random-route: true
+  memory: 512M
+  disk_quota: 768M
+  buildpack: nodejs_buildpack
+  health-check-type: process
